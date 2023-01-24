@@ -69,3 +69,12 @@ code {
 body.no-scroll {
   overflow: hidden;
 }
+.wishlistIcon {
+  outline: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.wishlistIcon:focus {
+  outline: none;
+}

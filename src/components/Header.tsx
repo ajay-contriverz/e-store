@@ -33,11 +33,11 @@ function Header() {
         <nav className="row justify-content-between align-items-center">
           <div className="col">
             <Link to={"/"} className="navbar-brand">
-              {/* <img src={"assets/images/e-store.png"} alt="" /> */}
-              <h1>
+              <img width={100} src={"./images/e-store.png"} alt="e-store" />
+              {/* <h1>
                 <span className="text-primary">E-</span>
                 <span className="text-success">Store</span>
-              </h1>
+              </h1> */}
             </Link>
           </div>
           <div className="col">
@@ -60,7 +60,7 @@ function Header() {
               {/* <li className="nav-item ml-5">
                 <button className="btn btn-sm btn-primary mr-2">Search</button>
               </li> */}
-              <li className="nav-item">
+              <li className="nav-item ml-3">
                 <button
                   onClick={() => setShowCart(true)}
                   className="btn btn-sm btn-success"
